@@ -38,3 +38,4 @@ printf("show called\n");
 show(&marks);
     return 0;
 }
+// array as an abstract data type
