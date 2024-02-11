@@ -1,3 +1,5 @@
+
+
 #include<stdio.h>
 // deletion operation at the particular index
 void display(int arr[] ,int n){
