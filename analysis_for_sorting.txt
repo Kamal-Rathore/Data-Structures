@@ -1,0 +1,7 @@
+the sorting algo must follow these listed criteria for best sorting
+1. time complexity
+2. space complexity
+3. stablity
+4. adaptability
+5. recursive/non recursive
+6. internal SA(all the data must be laoded in the memory)/external SA(all the data not loaded into the memory)
