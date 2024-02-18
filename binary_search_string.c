@@ -1,4 +1,4 @@
-/*
+
 #include<stdio.h>
 #include<string.h>
 int binary_search(char arr[][100],char x[100],int n){
@@ -27,11 +27,11 @@ else
 printf("String found at index %d\n",result);
 return 0;
 }
-*/
 
 
 
 // --------binary search of strings with user input--------
+/*
 #include<stdio.h>
 #include<string.h>
 int binary_search(char arr[][100],char x[100],int n){
@@ -63,3 +63,4 @@ int result = binary_search(arr,x,n);
 printf("%d\n",result);
     return 0;
 }
+*/
