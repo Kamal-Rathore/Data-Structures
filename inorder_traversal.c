@@ -12,12 +12,13 @@ struct node*createnode(int data){
     n->right=NULL;
     return n;
 }
-void postorder(struct node*root){
+void inorder(struct node*root){
     if(root!=NULL){
         
-        postorder(root->left);
-        postorder(root->right);
+        inorder(root->left);
         printf("%d\t",root->data);
+        inorder(root->right);
+        
     }
 }
 
@@ -31,6 +32,6 @@ p->left=p1;
 p->right=p2;
 p1->left=p3;
 p1->right=p4;
-postorder(p);
+inorder(p);
     return 0;
 }
