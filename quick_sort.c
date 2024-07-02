@@ -62,8 +62,8 @@ int main()
     // 3, 5, 2, 13, 12, 3, 2, 13, 45
     // 3, 2, 2, 13i, 12, 3j, 5, 13, 45
     // 3, 2, 2, 3j, 12i, 13, 5, 13, 45 --> first call to partition returns 3
-    int n = 9;
-    n =7;
+    
+    int n =7;
     printArray(A, n);
     quickSort(A, 0, n - 1);
     printArray(A, n);
